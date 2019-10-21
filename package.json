@@ -6,8 +6,8 @@
   ],
   "scripts": {
     "c": "git-cz",
-    "v": "lerna version --no-push",
-    "p": "lerna publish --git"
+    "v": "lerna version --amend",
+    "p": "lerna publish from-package --registry=http://0.0.0.0:4873/"
   },
    "config": {
     "commitizen": {
