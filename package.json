@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "c": "git-cz",
-    "v": "lerna version"
+    "v": "lerna version --skip-git"
   },
    "config": {
     "commitizen": {
