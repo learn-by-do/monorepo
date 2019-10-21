@@ -6,8 +6,8 @@
   ],
   "scripts": {
     "c": "git-cz",
-    "v": "lerna version --skip-git",
-    "p": "lerna publish"
+    "v": "lerna version --no-push",
+    "p": "lerna publish --git"
   },
    "config": {
     "commitizen": {
