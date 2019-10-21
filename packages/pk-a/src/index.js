@@ -1,3 +1,3 @@
-export const log = () => {
-  console.log('[log]: in @jonge/pk-a')
+export const log = (msg) => {
+  console.log('[log]: in @jonge/pk-a', msg)
 }

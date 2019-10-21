@@ -1,6 +1,6 @@
 {
   "name": "@jonge/pk-b",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "> TODO: description",
   "author": "NoName4Me <anich.evas@gmail.com>",
   "homepage": "",
@@ -16,6 +16,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@jonge/pk-a": "link: ../pk-a"
+    "@jonge/pk-a": "^0.3.2"
   }
 }
